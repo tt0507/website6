@@ -1,0 +1,134 @@
+html{
+    /* background-color: papayawhip; */
+    background-color: #ffdcab;
+}
+/* header */
+.title{
+    padding: 10px;
+}
+
+header{
+    background-color: rgb(255, 140, 98);
+}
+
+/* Navigation */
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    padding: 30px;
+    display: inline;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5159fa;
+}
+
+/* index.html */
+
+.indexText{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    /* background-color: white; */
+    color: blue;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.leftRight{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.middle{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.font_bigger{
+    font-size: 25px;
+}
+
+/* form.php */
+
+fieldset{
+    width: 50%;
+}
+
+.input{
+    list-style: none;
+    margin: 10px;
+}
+
+.align{
+    text-align: right;
+}
+
+#button {
+    float: right;
+}
+
+input, select {
+    margin-right: 25%;
+}
+
+/* Catalog */
+.search{
+    width: 30%;
+    margin-right: 0%;
+}
+
+.choose{
+    margin-right: 0%;
+}
+
+.search_bar{
+    text-align: center;
+    padding-top: 5%;
+}
+
+#table{
+    margin-right:auto;
+    margin-left:auto;
+    width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid;
+    border-color: #7abce9;
+    text-align: center;
+    padding: 10px;
+    width: 10%;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer{
+    position: relative;
+    min-height: 100%;
+}
